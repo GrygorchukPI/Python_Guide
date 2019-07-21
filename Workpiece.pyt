@@ -54,8 +54,8 @@ def click(pos):
 pic_width = 100
 pic_height = 100
 Img_Src = "https://raw.githubusercontent.com/GrygorchukPI/Python_Guide/master/happy-face.png"""
-Original_Img_Width = 1000  #You need to know it before run code
-Original_Img_Height = 1000 #You need to know it before run code
+Original_Img_Width = 1000  #You need to know it before run the code
+Original_Img_Height = 1000 #You need to know it before run the code
 face = Image(Img_Src, [500, 500], [Original_Img_Width, Original_Img_Height], [pic_width, pic_height])
 
 message_Hello_world = "Hello world"
